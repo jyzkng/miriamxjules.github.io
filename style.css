@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+body{
+    margin: 0;
+    padding: o;
+    max-width: 1520px;
+    max-height: 820px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(2, 2, 2);
+}
+
+p{ 
+    font-size: 15px;
+    line-height: 1.0;
+    text-align: justify;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background: url("tita.jpg");
+    background-attachment: fixed;
+    -webkit-backdrop-clip: text;
+    /* -webkit-text-fill-color:rgba(255, 255, 255, 0); */
+}
